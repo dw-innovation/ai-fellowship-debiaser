@@ -37,4 +37,4 @@ RUN pip install -r /app/requirements.txt
 
 EXPOSE 8080
 
-CMD exec uvicorn main:app --port 8080 --host 0.0.0.
+CMD exec uvicorn main:app --port 8080 --host 0.0.0.0
